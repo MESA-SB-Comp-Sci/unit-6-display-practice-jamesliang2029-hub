@@ -29,7 +29,7 @@ div {
    Change the display property so they sit side by side. */
 
 .nav-link {
-    display: block;
+    display: inline-block;
 }
 
 
@@ -37,7 +37,7 @@ div {
    Change the display property so they sit side by side. */
 
 .card {
-    display: block;
+    display: inline-block;
 }
 
 
@@ -45,10 +45,29 @@ div {
    Change the display property so they stack on top of each other. */
 
 .footer-credit {
-    display: inline;
+    display: block;
 }
 
 
 
 
 
+.b{
+    display: block;
+    background-color: pink;
+}
+
+.i{
+    /* display: inline; */
+    background-color: pink;
+}
+
+img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: navy;
+    border: 5px solid red;
+    margin: 20px;
+}
